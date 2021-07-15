@@ -166,6 +166,7 @@ Make some changes to the code you just cloned and deploy them to Heroku using Gi
 $ git add .  
 $ git commit -am "make it better"  
 $ git push heroku master  
+$ heroku run rake db:schema:load
 
 ### Send data to Github...
 $ git add -A  
