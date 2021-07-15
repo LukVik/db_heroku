@@ -12,10 +12,10 @@ In Postgresql Wiki: https://wiki.postgresql.org/wiki/Homebrew
 How to start / stop Postgresql  
 https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html   
 How check postgres version:    
-https://phoenixnap.com/kb/check-postgresql-version)  
+https://phoenixnap.com/kb/check-postgresql-version  
 Install Homebrew:    
 https://brew.sh  
-Install RVM and Development environment with connect to Git:
+Install RVM and Development environment with connect to Git:  
 https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/ 
 ## Things you may want to cover:
 To get started with the app, clone the repo and then install the needed gems:
@@ -64,7 +64,7 @@ $ postgres --version
 $ /bin/bash -c "$(curl -fsSL  
 https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 2) **Update Homebrew**  
-Before you install anything with Homebrew, you should always make sure it's up to date and that it's healthy:
+Before you install anything with Homebrew, you should always make sure it's up to date and that it's healthy:  
 $ brew update  
 $ brew doctor  
 3) **Install Postgres**  
@@ -102,15 +102,15 @@ $ rails sever
 1) **Create database.yml from demo_database.yml file.**  
 You should fill user name in development section. Password could be empty. It depends on your setup...
 2) **Create file option.yml and copy and paste it from Master on Github.**
-3) **In Database panel in RubyMine you click on "+" icon and add New database.**
+3) **In Database panel in RubyMine you click on "+" icon and add New database.**  
 database name: someName@localhost  
 host: localhost  
 user: foo  
 port: XXXX  
 url: is generated automatically  
-4) **Create database:**
+4) **Create database:**  
 $ rails db:create
-5) **Next, migrate it:**
+5) **Next, migrate it:**  
 $ rake db:seed  
 $ rake db:dev_seed  
 $ rails db:migrate  
